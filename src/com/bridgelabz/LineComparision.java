@@ -22,16 +22,20 @@ public class LineComparision {
 	public static void checkEquality(double lineOneLength, double lineTwoLength) {
 		if (lineOneLength == lineTwoLength) {
 			System.out.println("Lines are Equal");
+		} else if (lineOneLength > lineTwoLength) {
+			System.out.println("Line 1 is greater than Line 2");
 		} else {
-			System.out.println("Lines are not Equal");
+			System.out.println("Line 1 is less than Line 2");
 		}
 
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to Line Comparision Computation");
+
 		double lineOneLength = coOrdinates();
 		System.out.println("Length Of Line1 is: " + lineOneLength);
+
 		double lineTwoLength = coOrdinates();
 		System.out.println("Length Of Line2 is: " + lineTwoLength);
 
