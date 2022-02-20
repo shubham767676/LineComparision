@@ -34,10 +34,10 @@ public class LineComparision {
 		System.out.println("Welcome to Line Comparision Computation");
 
 		double lineOneLength = coOrdinates();
-		System.out.println("Length Of Line1 is: " + lineOneLength);
+		System.out.println("Length Of Line 1 is: " + lineOneLength);
 
 		double lineTwoLength = coOrdinates();
-		System.out.println("Length Of Line2 is: " + lineTwoLength);
+		System.out.println("Length Of Line 2 is: " + lineTwoLength);
 
 		checkEquality(lineOneLength, lineTwoLength);
 
